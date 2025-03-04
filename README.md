@@ -10,11 +10,16 @@ __This branch corresponds to the ongoing 2025 course. If you want to see full ma
 - [__Week 2:__](./week02_management_and_testing) __Experiment tracking, model and data versioning, testing DL code in Python__
   - Lecture: Experiment management basics and pipeline versioning. Configuring Python applications. Intro to regular and property-based testing.
   - Seminar: Example DVC+Weights & Biases project walkthrough. Intro to testing with pytest.
-- __Week 3:__ __Training optimizations, profiling DL code__
-- __Week 4:__ __Data-parallel training and All-Reduce__
-- __Week 5:__ __Sharded data-parallel training, distributed training optimizations__
+- [__Week 3:__ ](./week03_fast_pipelines) __Training optimizations, FP16/BF16/FP8 formats, profiling deep learning code__
+  - Lecture: Measuring performance of GPU-accelerated software. Mixed-precision training. Data storage and loading optimizations. Tools for profiling deep learning workloads. 
+  - Seminar: Automatic Mixed Precision in PyTorch. Dynamic padding for sequence data and JPEG decoding benchmarks. Basics of profiling with py-spy, PyTorch Profiler, Memory Snapshot and Nsight Systems.
+- [__Week 4:__](./week04_data_parallel) __Data-parallel training and All-Reduce__
+  - Lecture: Introduction to distributed training. Data-parallel training of neural networks. All-Reduce and its efficient implementations.
+  - Seminar: Introduction to PyTorch Distributed. Data-parallel training primitives.
+- [__Week 5:__](./week05_large_models) __Sharded data-parallel training, distributed training optimizations__
 - __Week 6:__ __Training large models__
-- __Week 7:__ __Python web application deployment__
+- [__Week 7:__](./week07_application_deployment) __Python web application deployment__
+  - Lecture/Seminar: Building and deployment of production-ready web services. App & web servers, Docker, Prometheus, API via HTTP and gRPC.
 - __Week 8:__ __LLM inference optimizations and software__
 - __Week 9:__ __Efficient model inference__
 - __Week 10:__ Guest lecture
@@ -32,6 +37,7 @@ Please refer to the course page of your institution for details.
 - [Max Ryabinin](https://github.com/mryab)
 - [Just Heuristic](https://github.com/justheuristic)
 - [Yaroslav Zolotarev](https://github.com/Q-c7)
+- [Maksim Abraham](https://github.com/fdrose)
 - [Gregory Leleytner](https://github.com/RunFMe)
 - [Antony Frolov](https://github.com/antony-frolov)
 - [Anton Chigin](https://github.com/achigin)
